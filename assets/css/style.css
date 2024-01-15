@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'urban';
+}
+
+@font-face {
+    font-family: 'urban';
+    src: url(../fonts/Urbanist-Medium.ttf);
+    width: 500;
+}
+
+@font-face {
+    font-family: 'urban';
+    src: url(../fonts/Urbanist-SemiBold.ttf);
+    width: 700;
+}
+.container{
+    width: 1600px;
+    margin: 0 auto;
+}
+
+/* header */
+.logo{
+width: 100%;
+}
+
+header{
+    background: #1A3129;
+    height: 85px;
+}
+
+header .container{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 20px 162px;
+}
+
+nav{
+    display: flex;
+    gap: 26px;
+}
+
+a{
+    color:  #FAFDF2;
+    font-size: 18px;
+}
+
+.active{
+    color: #CBEA7B;
+    font-size: 18px;
+}
+
+/* banner */
+h2{
+    color: #262626;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 200px;
+
+}
+
+.p1b1{
+    font-size: 18px;
+    color: #333333;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.p2b1{
+    padding-top: 120px;
+    font-size: 18px;
+    color: #333333;
+}
+.otiv{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.otziv1{
+    border-radius: 12px;
+    border: 1px solid  #EEF8D3;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 80px;
+}
